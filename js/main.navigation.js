@@ -144,6 +144,7 @@ main.navigation = (function(){
     // ------------------- BEGIN UTILITY METHODS -------------------
 
     addPageContent = function() {
+        // Rework to dynamically add/remove content
         jqueryMap.$name.first().append(configMap.name_html);
         jqueryMap.$about.first().append(configMap.about_html);
         jqueryMap.$resume.first().append(configMap.resume_html);
